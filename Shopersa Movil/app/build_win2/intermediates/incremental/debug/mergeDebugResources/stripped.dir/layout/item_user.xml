@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:strokeColor="@color/brand_accent"
+    app:strokeWidth="1dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Fila superior: avatar + nombre + editar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Avatar -->
+            <TextView
+                android:id="@+id/avatarView"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:gravity="center"
+                tools:text="?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_avatar" />
+
+            <!-- Nombre + botón editar -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingStart="12dp">
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/TextAppearance.Shoppersa.TitleSm" />
+
+                <ImageButton
+                    android:id="@+id/btnEdit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="Editar usuario"
+                    android:src="@drawable/ic_edit"
+                    app:tint="@color/brand_primary"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:layout_marginStart="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/txtMeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Shoppersa.Meta"
+            android:layout_marginTop="8dp" />
+
+        <!-- Chips de rol/estado -->
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:singleLine="true"
+            app:singleSelection="false">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipRole"
+                style="@style/Widget.Shoppersa.Chip.Badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rol" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipStatus"
+                style="@style/Widget.Shoppersa.Chip.Badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <!-- Teléfono y dirección -->
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Shoppersa.Body"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Shoppersa.Body"
+            android:layout_marginTop="2dp" />
+
+        <!-- Acciones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="8dp">
+
+            <!-- Llamar -->
+            <Button
+                android:id="@+id/btnCall"
+                style="@style/Widget.Shoppersa.Button.Success"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Llamar"
+                android:maxLines="1"
+                android:textSize="12sp"
+                android:layout_marginEnd="8dp" />
+
+            <!-- SMS -->
+            <Button
+                android:id="@+id/btnSms"
+                style="@style/Widget.Shoppersa.Button.Info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sms"
+                android:maxLines="1"
+                android:textSize="12sp"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Toggle bloqueado/activo con spinner centrado -->
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnToggle"
+                    style="@style/Widget.Shoppersa.Button.Danger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bloquear"
+                    android:textAllCaps="false"
+                    android:maxLines="1"
+                    android:textSize="12sp" />
+
+                <ProgressBar
+                    android:id="@+id/progressRow"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

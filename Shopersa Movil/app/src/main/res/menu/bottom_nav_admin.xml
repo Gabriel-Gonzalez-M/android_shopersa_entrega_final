@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Orden solicitado: Productos, Órdenes, Usuarios, Crear, Mi perfil -->
+    <item
+        android:id="@+id/menu_admin_products"
+        android:icon="@drawable/ic_nav_products"
+        android:title="@string/nav_products" />
+    <item
+        android:id="@+id/menu_admin_orders"
+        android:icon="@drawable/ic_nav_profile"
+        android:title="@string/nav_orders" />
+    <item
+        android:id="@+id/menu_admin_users"
+        android:icon="@drawable/ic_nav_profile"
+        android:title="@string/nav_users" />
+    <item
+        android:id="@+id/menu_admin_create"
+        android:icon="@drawable/ic_nav_add"
+        android:title="@string/nav_create" />
+    <item
+        android:id="@+id/menu_admin_profile"
+        android:icon="@drawable/ic_nav_profile"
+        android:title="@string/nav_profile" />
+
+</menu>

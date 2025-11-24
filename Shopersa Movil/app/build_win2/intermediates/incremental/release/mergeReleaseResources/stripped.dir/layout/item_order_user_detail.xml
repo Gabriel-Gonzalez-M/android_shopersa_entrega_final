@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <!-- Nombre del producto -->
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Producto"
+        style="@style/TextAppearance.Shoppersa.Body" />
+
+    <!-- Fila: cantidad y precio unidad -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cantidad: 0"
+            style="@style/TextAppearance.Shoppersa.Meta" />
+
+        <TextView
+            android:id="@+id/txtUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio unidad: $0 CLP"
+            style="@style/TextAppearance.Shoppersa.Meta"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Descripción y Total por producto -->
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción"
+        style="@style/TextAppearance.Shoppersa.BodyMuted"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio suma total: $0 CLP"
+        style="@style/TextAppearance.Shoppersa.Body"
+        android:layout_marginTop="2dp"/>
+
+</LinearLayout>

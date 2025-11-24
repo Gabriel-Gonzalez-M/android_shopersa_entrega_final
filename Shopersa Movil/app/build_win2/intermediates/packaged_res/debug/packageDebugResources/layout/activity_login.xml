@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".ui.LoginActivity">
+
+    <!-- Logo ShoPersa -->
+    <ImageView
+        android:id="@+id/ivAppLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/logo_shoppersa"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvLoginTitle"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/tvLoginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Shoppersa.TitleXL"
+        android:layout_marginBottom="32dp"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivAppLogo"
+        app:layout_constraintBottom_toTopOf="@id/tilEmail" />
+
+    <!-- EMAIL -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEmail"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_email"
+        app:boxStrokeColor="?attr/colorPrimary"
+        app:hintEnabled="true"
+        app:layout_constraintTop_toBottomOf="@id/tvLoginTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- PASSWORD -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPassword"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:startIconDrawable="@drawable/ic_lock"
+        app:endIconMode="password_toggle"
+        app:boxStrokeColor="?attr/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@id/tilEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- BOTÓN INGRESAR (MaterialButton) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        style="@style/Widget.Shoppersa.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Ingresar"
+        app:layout_constraintTop_toBottomOf="@id/tilPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:iconGravity="textStart" />
+
+    <TextView
+        android:id="@+id/tvNoTienesCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿No tienes una cuenta?"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/btnLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tvRegistrarse"
+        app:layout_constraintHorizontal_chainStyle="packed"/>
+
+    <TextView
+        android:id="@+id/tvRegistrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regístrate"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimary"
+        android:layout_marginStart="4dp"
+        app:layout_constraintTop_toTopOf="@id/tvNoTienesCuenta"
+        app:layout_constraintStart_toEndOf="@id/tvNoTienesCuenta"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Loader -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

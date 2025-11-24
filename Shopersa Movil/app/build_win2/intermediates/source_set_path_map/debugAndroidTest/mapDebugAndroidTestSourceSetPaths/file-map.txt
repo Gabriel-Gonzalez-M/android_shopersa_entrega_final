@@ -1,0 +1,5 @@
+cl.shoppersa.test.app-jetified-core-1.6.1-0 C:\Users\Nasho\.gradle\caches\8.13\transforms\1308f26de06a2deb545c161fd5dfa06a\transformed\jetified-core-1.6.1\res
+cl.shoppersa.test.app-androidTest-1 C:\Users\Nasho\OneDrive\Desktop\Shopersa Movil\app\build_win2\generated\res\resValues\androidTest\debug
+cl.shoppersa.test.app-mergeDebugAndroidTestResources-2 C:\Users\Nasho\OneDrive\Desktop\Shopersa Movil\app\build_win2\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+cl.shoppersa.test.app-mergeDebugAndroidTestResources-3 C:\Users\Nasho\OneDrive\Desktop\Shopersa Movil\app\build_win2\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+cl.shoppersa.test.app-debugAndroidTest-4 C:\Users\Nasho\OneDrive\Desktop\Shopersa Movil\app\build_win2\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

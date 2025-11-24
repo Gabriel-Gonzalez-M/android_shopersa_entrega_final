@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_bg_badge_offe.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\bg_badge_offe.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_badge_new_bg.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\badge_new_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_item_image_slider.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\item_image_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_fragment_user_orders.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\fragment_user_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_view_toast_brand.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\view_toast_brand.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_fragment_add_product.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\fragment_add_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_ic_nav_profile.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\ic_nav_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\menu_topbar_admin.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\menu\\topbar_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_item_order_user_detail.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\item_order_user_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_placeholder_rect.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\placeholder_rect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_ic_nav_cart.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\ic_nav_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_bg_badge_offer.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\bg_badge_offer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_logo_shoppersa.png.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\logo_shoppersa.png"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_bg_badge_outline_accent.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\bg_badge_outline_accent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_bg_avatar.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\bg_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_scrim_bottom.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\scrim_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_fragment_products.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\fragment_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_activity_product_detail.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\activity_product_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_fragment_cart.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_badge_offer_bg.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\badge_offer_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_item_order_user.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\item_order_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\color_nav_item_tint_dark.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\color\\nav_item_tint_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_fragment_admin_users.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\fragment_admin_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_bg_badge_new.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\bg_badge_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_dialog_client_info.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\dialog_client_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_item_product_grid.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\item_product_grid.xml"
+    },
+    {
+        "merged": "cl.shoppersa.app-debug-40:/layout_item_user.xml.flat",
+        "source": "cl.shoppersa.app-main-42:/layout/item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_fragment_admin_products.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\fragment_admin_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_fragment_admin_orders.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\fragment_admin_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\menu_topbar_home.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\menu\\topbar_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_ic_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\ic_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\menu_bottom_nav_admin.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\menu\\bottom_nav_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_item_image_preview.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\item_image_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_bg_toast_brand.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\bg_toast_brand.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_ic_nav_add.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\ic_nav_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_ic_nav_products.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\ic_nav_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_item_user.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_item_order_admin.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\item_order_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-debug-40:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\Nasho\\.gradle\\daemon\\8.13\\cl.shoppersa.app-main-42:\\layout\\item_product.xml"
+    }
+]

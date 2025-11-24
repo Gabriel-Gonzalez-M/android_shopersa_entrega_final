@@ -1,0 +1,87 @@
+<resources>
+    <!-- Botón por defecto de la app -->
+    <style name="Widget.Shoppersa.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_primary</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+
+    <!-- Variante secundaria (gris) -->
+    <style name="Widget.Shoppersa.Button.Secondary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_secondary</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+
+    <!-- Variante éxito (verde) -->
+    <style name="Widget.Shoppersa.Button.Success" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_success</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+
+    <!-- Variante información (azul) -->
+    <style name="Widget.Shoppersa.Button.Info" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_info</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+
+    <!-- Variante advertencia (ámbar) -->
+    <style name="Widget.Shoppersa.Button.Warning" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_warning</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+
+    <!-- Variante de peligro (rojo) -->
+    <style name="Widget.Shoppersa.Button.Danger" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_error</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+
+    <!-- Chip tipo badge para estados y roles -->
+    <style name="Widget.Shoppersa.Chip.Badge" parent="Widget.Material3.Chip.Assist">
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="ensureMinTouchTargetSize">false</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+    </style>
+
+    <!-- Texto secundario/muted -->
+    <style name="TextAppearance.Shoppersa.Meta" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_muted</item>
+    </style>
+
+    <!-- Titulares y cuerpo compartidos -->
+    <style name="TextAppearance.Shoppersa.TitleXL" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/brand_on_surface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Shoppersa.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/brand_on_surface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Shoppersa.TitleSm" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textColor">@color/brand_on_surface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Shoppersa.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/brand_on_surface</item>
+    </style>
+    <!-- Cuerpo en negrita para etiquetas en diálogos y listas -->
+    <style name="TextAppearance.Shoppersa.BodyBold" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/brand_on_surface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Cuerpo con color atenuado -->
+    <style name="TextAppearance.Shoppersa.BodyMuted" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_muted</item>
+    </style>
+</resources>

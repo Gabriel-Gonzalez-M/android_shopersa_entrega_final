@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre" />
+
+        <EditText
+            android:id="@+id/inputDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción" />
+
+        <EditText
+            android:id="@+id/inputPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/inputCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Categoría" />
+
+        <CheckBox
+            android:id="@+id/checkboxOffer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oferta" />
+
+        <EditText
+            android:id="@+id/inputOfferPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio oferta (opcional)"
+            android:inputType="numberDecimal" />
+
+        <CheckBox
+            android:id="@+id/checkboxNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Novedad" />
+
+        <Button
+            android:id="@+id/btnPick"
+            style="@style/Widget.Shoppersa.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar imágenes" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerPreview"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnSend"
+            style="@style/Widget.Shoppersa.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear producto"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            style="@style/Widget.Shoppersa.Button.Danger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar producto"
+            android:layout_marginTop="8dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

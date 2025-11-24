@@ -1,0 +1,43 @@
+cl.shoppersa.app-jetified-appcompat-resources-1.7.0-0 C:\Users\Nasho\.gradle\caches\8.13\transforms\0ce59a20b3c65774b0277f4186cf85a0\transformed\jetified-appcompat-resources-1.7.0\res
+cl.shoppersa.app-jetified-lifecycle-viewmodel-release-1 C:\Users\Nasho\.gradle\caches\8.13\transforms\17f04f0ba24974988c95d91e2b68589e\transformed\jetified-lifecycle-viewmodel-release\res
+cl.shoppersa.app-jetified-activity-1.9.3-2 C:\Users\Nasho\.gradle\caches\8.13\transforms\1c5f4ed6f75341b08dad6f7985e13d7c\transformed\jetified-activity-1.9.3\res
+cl.shoppersa.app-jetified-lifecycle-viewmodel-ktx-2.8.6-3 C:\Users\Nasho\.gradle\caches\8.13\transforms\24f95324084b6d5c2e51439676b64106\transformed\jetified-lifecycle-viewmodel-ktx-2.8.6\res
+cl.shoppersa.app-cardview-1.0.0-4 C:\Users\Nasho\.gradle\caches\8.13\transforms\2dd6372dfc0a83c12a14f38210d499ac\transformed\cardview-1.0.0\res
+cl.shoppersa.app-jetified-lifecycle-runtime-release-5 C:\Users\Nasho\.gradle\caches\8.13\transforms\323bdd48a584ed31b44f86d674f55fb3\transformed\jetified-lifecycle-runtime-release\res
+cl.shoppersa.app-core-1.13.1-6 C:\Users\Nasho\.gradle\caches\8.13\transforms\326f53661bd1b73ce9f94cccb63a191c\transformed\core-1.13.1\res
+cl.shoppersa.app-fragment-1.8.3-7 C:\Users\Nasho\.gradle\caches\8.13\transforms\3366dd02019c874474d8d4cf291bcc64\transformed\fragment-1.8.3\res
+cl.shoppersa.app-drawerlayout-1.1.1-8 C:\Users\Nasho\.gradle\caches\8.13\transforms\4f18b346ba2cfc6fb12594d3873df6c1\transformed\drawerlayout-1.1.1\res
+cl.shoppersa.app-jetified-fragment-ktx-1.8.3-9 C:\Users\Nasho\.gradle\caches\8.13\transforms\58b70c448a17deaa977a394f1e2a3b9a\transformed\jetified-fragment-ktx-1.8.3\res
+cl.shoppersa.app-jetified-viewpager2-1.1.0-10 C:\Users\Nasho\.gradle\caches\8.13\transforms\5ec08e5480299dd015bcfd6db57afbc6\transformed\jetified-viewpager2-1.1.0\res
+cl.shoppersa.app-constraintlayout-2.1.4-11 C:\Users\Nasho\.gradle\caches\8.13\transforms\6295a2eca4abcf58b496f0d39146aca7\transformed\constraintlayout-2.1.4\res
+cl.shoppersa.app-jetified-lifecycle-process-2.8.6-12 C:\Users\Nasho\.gradle\caches\8.13\transforms\66a4dd98e0da65e16d6c1c5cf2ae2148\transformed\jetified-lifecycle-process-2.8.6\res
+cl.shoppersa.app-jetified-activity-ktx-1.9.3-13 C:\Users\Nasho\.gradle\caches\8.13\transforms\68d9008842470268af3aad92f4e1eb8e\transformed\jetified-activity-ktx-1.9.3\res
+cl.shoppersa.app-core-runtime-2.2.0-14 C:\Users\Nasho\.gradle\caches\8.13\transforms\72ee20c8691ccfac45854a22db5d70bb\transformed\core-runtime-2.2.0\res
+cl.shoppersa.app-jetified-savedstate-1.2.1-15 C:\Users\Nasho\.gradle\caches\8.13\transforms\788ca59c4d5506de4ab35b2c54d21f97\transformed\jetified-savedstate-1.2.1\res
+cl.shoppersa.app-jetified-annotation-experimental-1.4.0-16 C:\Users\Nasho\.gradle\caches\8.13\transforms\7b10ab5be4e43273418bbfc5d1005bc0\transformed\jetified-annotation-experimental-1.4.0\res
+cl.shoppersa.app-jetified-coil-base-2.6.0-17 C:\Users\Nasho\.gradle\caches\8.13\transforms\8d11ab2e2055cc6b3fe7e82d0c9cc6df\transformed\jetified-coil-base-2.6.0\res
+cl.shoppersa.app-lifecycle-livedata-2.8.6-18 C:\Users\Nasho\.gradle\caches\8.13\transforms\9241d67074b04cc38cb49774e8694f7d\transformed\lifecycle-livedata-2.8.6\res
+cl.shoppersa.app-jetified-lifecycle-livedata-core-ktx-2.8.6-19 C:\Users\Nasho\.gradle\caches\8.13\transforms\93860aff704cc99b2c10e88d87f2f96d\transformed\jetified-lifecycle-livedata-core-ktx-2.8.6\res
+cl.shoppersa.app-coordinatorlayout-1.1.0-20 C:\Users\Nasho\.gradle\caches\8.13\transforms\969835fc8f7cd86421ae51c355a7426e\transformed\coordinatorlayout-1.1.0\res
+cl.shoppersa.app-swiperefreshlayout-1.1.0-21 C:\Users\Nasho\.gradle\caches\8.13\transforms\98ebeb39df3f410b13331e8b7f1cd1bc\transformed\swiperefreshlayout-1.1.0\res
+cl.shoppersa.app-jetified-lifecycle-viewmodel-savedstate-2.8.6-22 C:\Users\Nasho\.gradle\caches\8.13\transforms\9a8022f5e3d33d12da3a62df94d615fc\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.6\res
+cl.shoppersa.app-jetified-startup-runtime-1.1.1-23 C:\Users\Nasho\.gradle\caches\8.13\transforms\9dd7e30cb817504b878eec7d410331aa\transformed\jetified-startup-runtime-1.1.1\res
+cl.shoppersa.app-jetified-profileinstaller-1.3.1-24 C:\Users\Nasho\.gradle\caches\8.13\transforms\a7637c9b09ddaf1bb656d3572741c5dc\transformed\jetified-profileinstaller-1.3.1\res
+cl.shoppersa.app-lifecycle-livedata-core-2.8.6-25 C:\Users\Nasho\.gradle\caches\8.13\transforms\a92ed8cbe7adfd08e401bc200ea54a0f\transformed\lifecycle-livedata-core-2.8.6\res
+cl.shoppersa.app-appcompat-1.7.0-26 C:\Users\Nasho\.gradle\caches\8.13\transforms\c029638c157fbd539b2277b3a1a94de3\transformed\appcompat-1.7.0\res
+cl.shoppersa.app-jetified-emoji2-1.3.0-27 C:\Users\Nasho\.gradle\caches\8.13\transforms\c44b5b0ed543b89bce3fd4b53776da46\transformed\jetified-emoji2-1.3.0\res
+cl.shoppersa.app-jetified-emoji2-views-helper-1.3.0-28 C:\Users\Nasho\.gradle\caches\8.13\transforms\c5222be971df0febfb8a8b2900ca6df9\transformed\jetified-emoji2-views-helper-1.3.0\res
+cl.shoppersa.app-jetified-core-ktx-1.13.1-29 C:\Users\Nasho\.gradle\caches\8.13\transforms\cda58da900e377ca200f415ea1cd35af\transformed\jetified-core-ktx-1.13.1\res
+cl.shoppersa.app-jetified-lifecycle-runtime-ktx-release-30 C:\Users\Nasho\.gradle\caches\8.13\transforms\e06b16cd7a9f533ebd2e0f92475e9c3b\transformed\jetified-lifecycle-runtime-ktx-release\res
+cl.shoppersa.app-material-1.12.0-31 C:\Users\Nasho\.gradle\caches\8.13\transforms\e5d4ab09365611efac9735086c167464\transformed\material-1.12.0\res
+cl.shoppersa.app-transition-1.5.0-32 C:\Users\Nasho\.gradle\caches\8.13\transforms\ecd90f24a8ca23aed6bbe017a7a067f4\transformed\transition-1.5.0\res
+cl.shoppersa.app-recyclerview-1.3.2-33 C:\Users\Nasho\.gradle\caches\8.13\transforms\fa8c593d0faf286b760bf4ac40ce7118\transformed\recyclerview-1.3.2\res
+cl.shoppersa.app-jetified-customview-poolingcontainer-1.0.0-34 C:\Users\Nasho\.gradle\caches\8.13\transforms\fe1f47bbf8aa1f9d610d46fc8506a86d\transformed\jetified-customview-poolingcontainer-1.0.0\res
+cl.shoppersa.app-jetified-savedstate-ktx-1.2.1-35 C:\Users\Nasho\.gradle\caches\8.13\transforms\fea50278e1972ec4dd9744bcc778ba7b\transformed\jetified-savedstate-ktx-1.2.1\res
+cl.shoppersa.app-pngs-36 C:\Users\Nasho\OneDrive\Desktop\Shopersa Movil\app\build_win2\generated\res\pngs\debug
+cl.shoppersa.app-resValues-37 C:\Users\Nasho\OneDrive\Desktop\Shopersa Movil\app\build_win2\generated\res\resValues\debug
+cl.shoppersa.app-packageDebugResources-38 C:\Users\Nasho\OneDrive\Desktop\Shopersa Movil\app\build_win2\intermediates\incremental\debug\packageDebugResources\merged.dir
+cl.shoppersa.app-packageDebugResources-39 C:\Users\Nasho\OneDrive\Desktop\Shopersa Movil\app\build_win2\intermediates\incremental\debug\packageDebugResources\stripped.dir
+cl.shoppersa.app-debug-40 C:\Users\Nasho\OneDrive\Desktop\Shopersa Movil\app\build_win2\intermediates\merged_res\debug\mergeDebugResources
+cl.shoppersa.app-debug-41 C:\Users\Nasho\OneDrive\Desktop\Shopersa Movil\app\src\debug\res
+cl.shoppersa.app-main-42 C:\Users\Nasho\OneDrive\Desktop\Shopersa Movil\app\src\main\res

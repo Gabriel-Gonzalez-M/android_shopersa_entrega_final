@@ -1,0 +1,18 @@
+<resources>
+    <style name="Theme.Shoppersa" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Paleta -->
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/brand_on_primary</item>
+        <item name="colorSecondary">@color/brand_accent</item>
+        <item name="colorOnSecondary">@color/brand_on_primary</item>
+
+        <!-- Estilos globales -->
+        <item name="materialButtonStyle">@style/Widget.Shoppersa.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Material3.MaterialAlertDialog</item>
+
+        <!-- opcional -->
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+    </style>
+</resources>

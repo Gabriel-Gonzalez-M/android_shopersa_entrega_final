@@ -1,0 +1,30 @@
+<resources>
+    <!-- básicos -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- paleta de marca (claro) -->
+    <color name="brand_primary">#0D6EFD</color>      <!-- Bootstrap primary -->
+    <color name="brand_on_primary">#FFFFFFFF</color> <!-- Texto en botón -->
+    <color name="brand_accent">#D1C4E9</color>       <!-- Ripple/acentos -->
+    <color name="brand_surface">#FFFFFF</color>
+    <color name="brand_on_surface">#212121</color>
+    <color name="brand_bg">#FAFAFA</color>
+    <color name="brand_border">#E0E0E0</color>
+    <color name="brand_error">#DC3545</color>       <!-- Bootstrap danger -->
+    <color name="brand_success">#198754</color>      <!-- Bootstrap success -->
+    <color name="brand_secondary">#6C757D</color>
+    <color name="brand_warning">#FFC107</color>
+    <color name="brand_info">#0DCAF0</color>        <!-- Bootstrap info -->
+    <color name="text_muted">#6C757D</color>
+
+    <!-- Compat por si tus layouts usan estos nombres -->
+    <color name="purple_primary">#673AB7</color>
+    <color name="purple_dark">#512DA8</color>
+    <color name="purple_light">#D1C4E9</color>
+
+    <color name="header_dark">#212529</color>
+    <color name="on_header">#FFFFFF</color>
+    <!-- Overlay semitransparente para scrims/gradientes sobre imágenes -->
+    <color name="overlay_dark">#66000000</color>
+</resources>

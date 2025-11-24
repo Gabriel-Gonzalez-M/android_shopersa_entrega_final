@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Android 13+ requiere permiso de notificaciones -->
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS"
+        tools:targetApi="33"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="shoppersa"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shoppersa">
+
+        <!-- Splash como LAUNCHER -->
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Shoppersa">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Pantallas de la app (sin launcher) -->
+        <activity
+            android:name="cl.shoppersa.ui.LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="cl.shoppersa.ui.HomeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="cl.shoppersa.ui.AdminActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="cl.shoppersa.ui.ProductDetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.RegisterActivity"
+            android:exported="false" />
+
+    </application>
+</manifest>

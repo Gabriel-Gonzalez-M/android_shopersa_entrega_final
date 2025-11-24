@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card"
+    android:layout_margin="8dp">
+
+    <!-- Fila superior: título y acciones -->
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Shoppersa.TitleSm"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnAccept"
+        android:layout_marginEnd="12dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAccept"
+        style="@style/Widget.Shoppersa.Button.Success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:minHeight="36dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnReject"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnReject"
+        style="@style/Widget.Shoppersa.Button.Danger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rechazar"
+        android:minHeight="36dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnShip"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnShip"
+        style="@style/Widget.Shoppersa.Button.Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:minHeight="36dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Estado + toggle de detalles -->
+    <com.google.android.material.chip.Chip
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.Shoppersa.Chip.Badge"
+        android:text="Estado"
+        android:textAllCaps="true"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/txtInfo"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Chips complementarios: aceptación y envío -->
+    <LinearLayout
+        android:id="@+id/chipsContainerAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        app:layout_constraintTop_toBottomOf="@id/txtStatus"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/txtAcceptedState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chip_product_pending"
+            android:textSize="12sp"
+            android:clickable="false"
+            android:checkable="false"
+            android:textColor="@android:color/white"
+            app:chipCornerRadius="8dp"
+            app:chipStrokeWidth="0dp"
+            app:chipBackgroundColor="@android:color/darker_gray"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/txtShippingState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chip_waiting"
+            android:textSize="12sp"
+            android:layout_marginStart="8dp"
+            android:clickable="false"
+            android:checkable="false"
+            android:textColor="@android:color/white"
+            app:chipCornerRadius="8dp"
+            app:chipStrokeWidth="0dp"
+            app:chipBackgroundColor="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnToggleDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Shoppersa.BodyMuted"
+        android:text="Ver detalles"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintTop_toBottomOf="@id/chipsContainerAdmin"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Botón para alternar sección de información del cliente -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnClientInfo"
+        style="@style/Widget.Shoppersa.Button.Secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Información del cliente"
+        android:minHeight="36dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/btnToggleDetails"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Contenedor expandible de detalles de productos de la orden -->
+    <LinearLayout
+        android:id="@+id/containerDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/btnClientInfo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+        <!-- Encabezado de productos -->
+        <TextView
+            android:id="@+id/txtProductsHeaderAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/orders_admin_products_header"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="#2276b9"/>
+
+        <!-- Lista de detalles con tarjetas como en vista de usuario -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listDetailsAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:nestedScrollingEnabled="false"/>
+
+        <!-- Total de la orden -->
+        <TextView
+            android:id="@+id/txtOrderTotalAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/orders_admin_total_fmt"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

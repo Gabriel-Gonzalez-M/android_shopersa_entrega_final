@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_profile"
+        android:title="Perfil"
+        android:icon="@drawable/ic_nav_profile"
+        android:showAsAction="always"
+        app:iconTint="@color/on_header"/>
+    <item
+        android:id="@+id/action_logout"
+        android:title="Cerrar sesión"
+        android:icon="@drawable/ic_lock"
+        android:showAsAction="always"
+        app:iconTint="@color/on_header"/>
+</menu>

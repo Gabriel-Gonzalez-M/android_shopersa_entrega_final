@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="brand_accent">#D1C4E9</color>
+    <color name="brand_bg">#FAFAFA</color>
+    <color name="brand_border">#E0E0E0</color>
+    <color name="brand_error">#DC3545</color>
+    <color name="brand_info">#0DCAF0</color>
+    <color name="brand_on_primary">#FFFFFFFF</color>
+    <color name="brand_on_surface">#212121</color>
+    <color name="brand_primary">#0D6EFD</color>
+    <color name="brand_secondary">#6C757D</color>
+    <color name="brand_success">#198754</color>
+    <color name="brand_surface">#FFFFFF</color>
+    <color name="brand_warning">#FFC107</color>
+    <color name="header_dark">#212529</color>
+    <color name="ic_launcher_background">#E8C9A5</color>
+    <color name="on_header">#FFFFFF</color>
+    <color name="overlay_dark">#66000000</color>
+    <color name="purple_dark">#512DA8</color>
+    <color name="purple_light">#D1C4E9</color>
+    <color name="purple_primary">#673AB7</color>
+    <color name="text_muted">#6C757D</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="address_prefix">Dirección: %1$s</string>
+    <string name="admin_title">Administración</string>
+    <string name="app_name">shoppersa</string>
+    <string name="chip_product_accepted">Producto aceptado</string>
+    <string name="chip_product_pending">Producto pendiente</string>
+    <string name="chip_product_shipped">Producto enviado</string>
+    <string name="chip_waiting">En espera</string>
+    <string name="date_prefix">Fecha: %1$s</string>
+    <string name="nav_cart">Carrito</string>
+    <string name="nav_create">Crear</string>
+    <string name="nav_my_orders">Mis compras</string>
+    <string name="nav_orders">Órdenes</string>
+    <string name="nav_products">Productos</string>
+    <string name="nav_profile">Mi perfil</string>
+    <string name="nav_users">Usuarios</string>
+    <string name="order_id_fmt">Pedido #%1$d</string>
+    <string name="orders_admin_client_info">Información del cliente</string>
+    <string name="orders_admin_client_info_hide">Ocultar información del cliente</string>
+    <string name="orders_admin_header_fmt">#%1$d - %2$s</string>
+    <string name="orders_admin_load_details_error">No se pudieron cargar los detalles</string>
+    <string name="orders_admin_loading_products">Cargando productos…</string>
+    <string name="orders_admin_products_header">Productos ordenados</string>
+    <string name="orders_admin_total_fmt">Total de la orden: %1$s</string>
+    <string name="products_prefix">Productos: %1$s</string>
+    <string name="status_accepted">Aceptado</string>
+    <string name="status_pending">Pendiente</string>
+    <string name="status_rejected">Rechazado</string>
+    <string name="status_requested">Solicitado</string>
+    <string name="status_shipped">Enviado</string>
+    <string name="toggle_hide">Ocultar</string>
+    <string name="toggle_show_details">Ver detalles</string>
+    <string name="welcome_name">¡Bienvenido, %1$s!</string>
+    <style name="TextAppearance.Shoppersa.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/brand_on_surface</item>
+    </style>
+    <style name="TextAppearance.Shoppersa.BodyBold" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/brand_on_surface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Shoppersa.BodyMuted" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_muted</item>
+    </style>
+    <style name="TextAppearance.Shoppersa.Meta" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_muted</item>
+    </style>
+    <style name="TextAppearance.Shoppersa.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/brand_on_surface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Shoppersa.TitleSm" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textColor">@color/brand_on_surface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Shoppersa.TitleXL" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/brand_on_surface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.Shoppersa" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/brand_on_primary</item>
+        <item name="colorSecondary">@color/brand_accent</item>
+        <item name="colorOnSecondary">@color/brand_on_primary</item>
+
+        
+        <item name="materialButtonStyle">@style/Widget.Shoppersa.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Material3.MaterialAlertDialog</item>
+
+        
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+    </style>
+    <style name="Widget.Shoppersa.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_primary</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+    <style name="Widget.Shoppersa.Button.Danger" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_error</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+    <style name="Widget.Shoppersa.Button.Info" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_info</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+    <style name="Widget.Shoppersa.Button.Secondary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_secondary</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+    <style name="Widget.Shoppersa.Button.Success" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_success</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+    <style name="Widget.Shoppersa.Button.Warning" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/brand_warning</item>
+        <item name="rippleColor">@color/brand_accent</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+    </style>
+    <style name="Widget.Shoppersa.Chip.Badge" parent="Widget.Material3.Chip.Assist">
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="ensureMinTouchTargetSize">false</item>
+        <item name="android:textColor">@color/brand_on_primary</item>
+    </style>
+</resources>

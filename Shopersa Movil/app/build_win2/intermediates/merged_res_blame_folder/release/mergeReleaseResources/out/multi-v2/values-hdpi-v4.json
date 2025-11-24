@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "cl.shoppersa.app-mergeReleaseResources-38:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Nasho\\.gradle\\caches\\8.13\\transforms\\c029638c157fbd539b2277b3a1a94de3\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

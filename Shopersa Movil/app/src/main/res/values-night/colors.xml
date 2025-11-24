@@ -1,0 +1,24 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta de marca (oscuro) -->
+    <color name="brand_primary">#60A5FA</color>
+    <color name="brand_on_primary">#FFFFFFFF</color>
+    <color name="brand_accent">#60A5FA</color>
+    <color name="brand_surface">#121212</color>
+    <color name="brand_on_surface">#E0E0E0</color>
+    <color name="brand_bg">#0F1117</color>
+    <color name="brand_border">#2A2A2A</color>
+    <color name="brand_error">#F87171</color>
+    <color name="brand_success">#198754</color>
+    <color name="brand_secondary">#6C757D</color>
+    <color name="brand_warning">#FFC107</color>
+    <color name="brand_info">#0DCAF0</color>
+    <color name="text_muted">#B3FFFFFF</color>
+
+    <color name="header_dark">#0F1117</color>
+    <color name="on_header">#FFFFFF</color>
+    <!-- Overlay semitransparente para scrims/gradientes sobre imágenes -->
+    <color name="overlay_dark">#66000000</color>
+</resources>
