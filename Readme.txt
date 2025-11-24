@@ -200,3 +200,44 @@ Comportamiento UX:
   4. Logout.
 
 ## 13) Estructura del proyecto (Android)
+```
+app/src/main/java/cl/shoppersa/
+├── api/                 # RetrofitClient, AuthInterceptor, TokenManager
+├── data/                # CacheStore y persistencia ligera
+├── model/               # Modelos/DTOs (productos, usuarios, órdenes, carrito)
+├── ui/fragments/        # Vistas Admin/Cliente (usuarios, productos, órdenes, perfil)
+├── adapters/            # RecyclerView adapters de listas (productos/usuarios/órdenes)
+└── utils/               # Utilidades, formatos y helpers
+```
+
+- `api/RetrofitClient`: orquesta servicios, normaliza `baseUrl`, configura `OkHttp`, logging y caché GET.
+- `api/AuthInterceptor`: agrega `Authorization: Bearer <token>` desde `TokenManager`.
+- `data/CacheStore`: persistencia ligera para listas (stale-while-revalidate).
+- `ui/fragments`: pantallas modulares por rol y flujo (Admin/Cliente).
+- `adapters`: `ListAdapter` con `DiffUtil` para render eficiente.
+- `utils`: helpers varios (formatos, validaciones, normalizaciones).
+
+## 14) Mantenimiento y configuración
+- Ambientes Xano:
+  - Edita `app/build.gradle.kts` y actualiza `BuildConfig.XANO_*` con las bases de tus workspaces.
+  - Vuelve a sincronizar Gradle y ejecuta.
+- Logs:
+  - AUTH con nivel `BODY` para diagnosticar signup/login.
+  - STORE con nivel `HEADERS` para evitar mostrar binarios de imágenes en logs.
+- TTL de sesión:
+  - `XANO_TOKEN_TTL_SEC` marca expectativas de vida del token; limpieza controlada de sesión.
+- Rendimiento:
+  - Caché GET de 60s y SWR tras mutaciones (UI reactiva y consistente).
+- Seguridad:
+  - Headers sensibles redactados en logs; usar `https` en Xano.
+
+## 15) Criterios de aceptación (QA rápido)
+- Login/Logout y ruteo por rol correcto.
+- CRUD de productos con múltiples imágenes funcional.
+- Carrito editable y persistente durante la sesión.
+- Pago simulado y solicitud de envío visibles en órdenes.
+- Gestión de usuarios: bloqueo/desbloqueo y edición/creación.
+- Estados de UI: `cargando`, `vacío`, `error` con reintento.
+- Confirmaciones en acciones destructivas (bloqueo, rechazo, eliminación).
+- APK generable con `gradlew.bat assembleDebug`.
+- README suficiente para compilar y ejecutar sin pasos ocultos.
